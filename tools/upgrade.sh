@@ -1,6 +1,5 @@
-current_path=`pwd`
 printf '\033[0;34m%s\033[0m\n' "Upgrading Oh My Zsh"
-cd $ZSH
+cd "$ZSH"
 
 if git pull origin ZL
 then
@@ -16,4 +15,3 @@ else
   printf '\033[0;31m%s\033[0m\n' 'There was an error updating. Try again later?'
 fi
 
-cd "$current_path"
