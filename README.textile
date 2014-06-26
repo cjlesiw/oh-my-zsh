@@ -33,7 +33,6 @@ h3. The manual way
 
   @cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc@
 
-
 4. Set zsh as your default shell:
 
   @chsh -s /bin/zsh@
